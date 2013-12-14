@@ -1,21 +1,23 @@
 Android-OpenDebug
 =================
+
 Make any application debuggable on a device.
 
 Description
--------
-It leverages Cydia Substrate to make all applications debuggable. This then allows any application, to accept a debugger to attach to them. 
+-----------
+
+This tool leverages Cydia Substrate to make all applications running on the device debuggable; once installed any application will let a debugger attach to them. 
 
 Usage
--------
-* Install Android-OpenDebug.apk on a device where Cydia Substrate is installed with:
+-----
+
+* Ensure that Cydia Substrate has been deployed on your test device. The installer requires a rooted device and can be found on the Google Play store at https://play.google.com/store/apps/details?id=com.saurik.substrate&hl=en 
+* Download the pre-compiled APK available at https://github.com/iSECPartners/Android-OpenDebug/releases
+* Install the APK package on the device:
 
         adb install Android-OpenDebug.apk
 
-* Cydia Substrate can be found on Google Play 
-(https://play.google.com/store/apps/details?id=com.saurik.substrate&hl=en) 
-and requires a rooted device.
-
 Notes
--------
-* This should only be used on test devices
+-----
+
+This should only be used on test devices
